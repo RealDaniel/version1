@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>
+    北京环卫集团
+  </title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <link type="image/x-icon" rel="shortcut icon" href="./pics/besg.ico" />
+</head>
+<body>
+  <div class="container-fluid" style="padding:0px;">
+    <nav class="navbar navbar-default text-center vertical-middle-sm" style="margin-bottom:0px;">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header"style="margin-top:5px;">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav navbar-nav navbar-left" style="margin-top:-5px;">
+            <img src="./pics/logo2.png" width="270">
+          </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right" style="margin-top:5px;">
+            <li><a href="#">客户端下载 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">企业邮箱</a></li>
+            <li><a href="#">人才招聘</a></li>
+            <li><a href="#">帮助</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+  <div class="container-fluid" style="padding:0px;background-image:url('pics/1.jpg');background-size:cover;margin-left:-3px;margin-right:-3px;margin-top:-1px;padding-left:3px;padding-right:3px;">
+    <div class="row" style="padding-top:100px;padding-bottom:10px;">
+      <div class="col-xs-12 col-md-3 col-md-offset-7 col-lg-2" style="margin-top:20px;background:rgba(255,255,255,0.5)!important;background-color:#FFF;filter:Alpha(opacity=50);padding-bottom:20px;">
+        <div class="tabbable" >
+          <ul class="nav nav-tabs" style="font-size:14px;border:0px;">  
+            <li class="active"style="width:50%"><a href="#1" data-toggle="tab">普通登录</a></li>  
+            <li style="width:50%"><a href="#tt" data-toggle="tab">二维码登录</a></li>   
+          </ul>
+          <div class="tab-content" >  
+            <div class="tab-pane active" id="1" style="height:260px;">  
+              <form class="form-horizontal" role="form">
+                <div class="form-group">
+                  <label style="margin-left:20px;margin-top:15px;font-size:14px;">环卫登录</label>
+                </div>  
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <span class="glyphicon glyphicon-envelope" style="position:absolute; top:10px;left:30px;font-size:14px;color:gray"></span>
+                    <input type="text" class="form-control " style="border-radius:30px;padding-left:40px;" id="firstname" 
+                    placeholder="用户名称">
+
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <span class="glyphicon glyphicon-lock" style="position:absolute; top:10px;left:30px;font-size:14px;color:gray"></span>
+                    <input type="text" class="form-control" style="border-radius:30px;padding-left:40px;" id="lastname" 
+                    placeholder="密码">
+                  </div>
+                </div>
+                <div class="form-group　row" style="margin-bottom:30px;">
+                  <div class="col-xs-6 col-sm-6" style="padding-left:0px;">
+                    <div class="checkbox" style="padding:0px;">
+                      <label style="font-size:6px;">
+                        <input type="checkbox" > 十天内免登陆
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 text-right"style="padding-right:0px;"><a href="#" style="font-size:6px;color:#000000">忘记密码？</a>
+
+
+
+                  </div>
+                </div>
+                <div class="form-group" style="margin-top:50px;">
+                  <div style="padding-left:15px;padding-right:15px;">
+                    <button type="submit" class="btn btn-primary" style="border-radius:30px;width:100%;">登录</button></div>
+
+                  </div>
+                </form> 
+                <div class="text-center" style="">
+                  <span style="float:left;padding-left:30px;">其他登录方式：<a href="#"><img src="pics/QQ.png" width="20px" height="20px" style="margin-left:10px;"></a><a href="#"><img src="pics/wechat0.png" width="20px" height="20px" style="margin-left:5px;"></a><a href="#"><img src="pics/sina0.png" width="20px" height="20px" style="margin-left:5px;"></a></span>
+
+                </div>
+
+              </div>  
+              <div id="tt" class="tab-pane" style="height:260px;">  
+                <div class="text-center" style="width:200px;margin-left:auto;margin-right:auto;padding-top:40px;">
+                  <img src="pics/tdcode.png" width="200px;">
+                  <p>打开微信，扫描屏幕二维码</p>
+                </div>
+              </div>  
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2"style="height:30px;margin-bottom:110px;">
+          <button class="btn btn-default" type="button" style="left:30%;margin-top:30px;border-radius:50%;width:30px;height:30px;background:rgba(255,255,255,0.2)!important;background-color:#FFF;filter:Alpha(opacity=50);position:absolute"><span class="glyphicon glyphicon-chevron-left" style="position:absolute;left:7px;top:7px;color:white"></span></button>
+          <button class="btn btn-default" type="button" style="right:30%;top:30px;border-radius:50%;width:30px;height:30px;background:rgba(255,255,255,0.2)!important;background-color:#FFF;filter:Alpha(opacity=50);position:absolute"><span class="glyphicon glyphicon-chevron-right" style="position:absolute;left:7px;top:7px;color:white"></span></button>
+
+
+        </div>
+
+
+      </div>
+    </div>  
+    <div class="container-fluid wrapper" style="background-color:#F8F8F8;font-size:8px; color:#A1A1A1;border:1px solid #E7E7E7">
+      <div class="row" style="padding-top:15px;padding-bottom:15px;">
+        <div class="col-xs-12 col-md-5 col-md-offset-1" style="padding:15px;height:44px;border-right:1px dotted #A1A1A1">
+          <span style="float:left;">友情链接：</span>
+          <span style="float:left;padding-left:30px;">北京环卫</span>
+          <span style="float:left;padding-left:30px;">|</span>
+          <span style="float:left;padding-left:30px;">北京国资委</span>
+          <span style="float:left;padding-left:30px;">|</span>
+          <span style="float:left;padding-left:30px;">北京市市容委</span>
+          <span style="float:left;padding-left:30px;">|</span>
+          <span style="float:left;padding-left:30px;">北京垃圾渣土管理处</span>
+        </div>
+        <div class="col-xs-12 col-md-5 col-md-offset-1">
+          <p style = "line-height:1">地址:北京市朝阳区北湖区路15号 邮编：100101 Email：besg@besg.com.cn</p>
+          <p style = "line-height:1">京ICP备075041176 京公网安备110401000086号</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- jQuery 2.1.4 -->
+    <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jQueryUI/jquery-ui.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

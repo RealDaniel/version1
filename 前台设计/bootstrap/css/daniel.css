@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* Daniel CSS Document */
+.newsDaniel{
+	font-size:20px;
+	color:#F00;
+	border-bottom-color:#000;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	padding-bottom:0px;
+}
